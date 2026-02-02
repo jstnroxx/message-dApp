@@ -1,0 +1,1 @@
+# It is a decentralized app that uses MetaMask to connect frontend and a smart contract deployed on a Sepolia testnet.
