@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Message dApp</title>
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="media/ethereum.ico">
+    </head>
+
+    <body>
+        <div class="wallet-container">
+            <p id="wallet-address">
+                Address: <mark id="marked">not connected.</mark>
+            </p>
+
+            <button id="connect-wallet">Connect MetaMask</button>
+        </div>
+
+        <div class="form-container">
+            <div id="main-div">
+                <h1>Blockchain Lab3</h1>
+
+                <div id="current-message-div">
+                    <label for="current-message">Current message:</label><br>
+
+                    <p id="current-message">
+                        No message available.
+                    </p>
+                </div>
+
+                <div id="update-message-form-div">
+                    <form id="update-message-form">
+                        <label for="message-input">New message:</label><br>
+                        
+                        <input type="text" name="new-message" id="message-input" placeholder="Message..." autocomplete="off" required><br>
+
+                        <button id="message-update-button" type="submit">Update</button>
+
+                        <script src="scripts/logics.js"></script>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+        <script src="scripts/logics.js"></script>
+    </body>
+</html>

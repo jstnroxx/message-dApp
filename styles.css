@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(242, 244, 247);
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.wallet-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+mark {
+    background-color:green;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#main-div {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+}
+
+#connect-wallet {
+    margin: 0;
+    background-color: green;
+    color: white;
+}
+
+#connect-wallet:active {
+    background-color: rgb(0, 99, 0);
+}
+
+#wallet-address {
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 10px;
+    padding: 0;
+}
+
+p, input, button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px rgb(0, 110, 255) solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+p {
+    overflow-wrap: anywhere;
+}
+
+input {
+    box-sizing: border-box;
+    border: 1px rgb(0, 110, 255) solid;
+    border-radius: 20px;
+    caret-color: rgb(0, 110, 255);
+    outline: none;
+    width: 100%;
+}
+
+input:focus {
+    border: 1px rgb(0, 110, 255) solid;
+    box-shadow: 0 0 5px 0 rgba(0, 110, 255, 0.5);
+}
+
+button {
+    border: none;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    transition: opacity 0.15s;
+}
+
+button:hover {
+    opacity: 0.75;
+}
+
+button:active {
+    background-color: rgb(0, 81, 226);
+}
+
+label {
+    font-weight: bold;
+}
+
