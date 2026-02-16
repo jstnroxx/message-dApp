@@ -89,6 +89,7 @@ messageUpdateForm.addEventListener("submit", async function(event) {
 		messageUpdateButton.disabled = true;
 		messageUpdateButton.textContent = "Sending...";
 		messageUpdateButton.style.opacity = 0.5;
+		messageUpdateButton.style.cursor = "default";
 		
 		try {
 			const _newMessage = messageInput.value;
